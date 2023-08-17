@@ -7,6 +7,26 @@ The data is randomly generated
 
 Recommendations
 Long Service Awards, Best Performer,
+look at manager
+Acquire external data: Consider external factors that may influence attrition, such as industry trends, economic conditions, and competitive job market data.
+The Python notebook will:
+1. Data Preprocessing and Exploration
+   Data cleaning: Handle missing values, outliers, and inconsistencies in the dataset.
+   Feature selection: Identify and select relevant features that are likely to impact attrition.
+   Feature engineering: Create new features based on domain knowledge, such as tenure, engagement scores, and jo satisfaction indices.
+    Exploratory data analysis (EDA): Visualize and analyze the data to uncover patterns, correlations, and potential insights.
+3. Data Splitting
+   Split the dataset into training and testing sets: Use a portion of the data for model training and the rest for evaluation. Consider time-based splitting if the data is time-series, to simulate real-world scenarios.
+Model Selection and Training:
+4. Model Training
+5. Model Evaluation
+6. Feature Importance Analysis:
+Identify important features: Analyze feature importance scores to understand which factors contribute the most to attrition predictions.
+Strategy Proposal
+
+
+
+
 
 The repo will showcase Python code to determine which factors keep employees at the company and which prompt others to leave.
 
