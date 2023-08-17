@@ -1,5 +1,14 @@
-# Attrition
-The key to success in any organization is attracting and retaining top talent. The repo will showcase Python code to determine which factors keep employees at the company and which prompt others to leave.
+#  Building a predictive model for forecasting attrition risk and proposing data-driven strategies to reduce employee turnover at ExploreEdge.
+
+Problem Definition and Data Collection:
+The key to success in any organization is attracting and retaining top talent. The goal of this repo is to identify the key factors contributing to the attrition of employees. 
+The data is randomly generated
+
+
+Recommendations
+Long Service Awards, Best Performer,
+
+The repo will showcase Python code to determine which factors keep employees at the company and which prompt others to leave.
 
 This case study explores how a data scientist can analyze and address the problem of high
 employee attrition within ExploreEdge from their 13,450 employees.
