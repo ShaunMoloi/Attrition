@@ -2,10 +2,12 @@
 
 Problem Definition and Data Collection:
 The key to success in any organization is attracting and retaining top talent. The goal of this repo is to identify the key factors contributing to the attrition of employees. 
-The data is randomly generated
-
+The data is pseudo-randomly generated using python code.
+Data Preview
+![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/56cb6151-84d7-49a0-8fdc-211e19c5e207)
 
 Recommendations
+## SIDE NOTE MOVE THE DISTANCE FROM HOME TO BE MORE 20+ k's for people that attri
 Long Service Awards, Best Performer,
 look at manager
 Acquire external data: Consider external factors that may influence attrition, such as industry trends, economic conditions, and competitive job market data.
