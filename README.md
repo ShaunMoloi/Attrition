@@ -9,6 +9,7 @@ The key to success in any organization is attracting and retaining top talent. T
 
 Data Preview
 
+
 ![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/56cb6151-84d7-49a0-8fdc-211e19c5e207)
 
 The Python notebook will:
@@ -33,12 +34,19 @@ ExploreEdge consists of 795 Employees with an average age of 37 years old.
 Distribution of WorkModels of the Employees:
 
 Remote                221
+
 High-flex Hybrid      206
+
 Medium-flex Hybrid    154
+
 Fully office based    109
+
 Fully Remote           80
+
 Low - flex hybrid      20
+
 Field - Force           5
+
 Name: WorkModel, dtype: int64
 
 ## Insights gathered from the Exploratory Data Analysis: 
