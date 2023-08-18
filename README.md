@@ -31,6 +31,7 @@ Dataset attributes
 <img width="273" alt="image" src="https://github.com/ShaunMoloi/Attrition/assets/34385762/3abcabec-d4ef-40ab-b84e-6e958c1c7921">
 
 ExploreEdge consists of 795 Employees with an average age of 37 years old. 
+
 Distribution of WorkModels of the Employees:
 
 Remote                221
