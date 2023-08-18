@@ -11,6 +11,7 @@ Data Preview
 
 
 ![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/56cb6151-84d7-49a0-8fdc-211e19c5e207)
+<img width="273" alt="image" src="https://github.com/ShaunMoloi/Attrition/assets/34385762/3abcabec-d4ef-40ab-b84e-6e958c1c7921">
 
 The Python notebook will:
 ### 1. Data Preprocessing and Exploration
@@ -28,7 +29,6 @@ Strategy Proposal
 
 ## Insights discovered
 Dataset attributes
-<img width="273" alt="image" src="https://github.com/ShaunMoloi/Attrition/assets/34385762/3abcabec-d4ef-40ab-b84e-6e958c1c7921">
 
 ExploreEdge consists of 795 Employees with an average age of 37 years old. 
 
