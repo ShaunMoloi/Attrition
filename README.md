@@ -15,13 +15,13 @@ Data Preview
 
 The Python notebook will:
 ### 1. Data Preprocessing and Exploration
-Exploratory Data Analysis will be conducted to identify the key factors contributing to attrition, visualize and analyze the data to uncover patterns, correlations, and potential insights. Data cleaning: Handle missing values, outliers, and inconsistencies in the dataset.
+Exploratory Data Analysis will be conducted to identify the key factors contributing to attrition and visualise and analyze the data to uncover patterns, correlations, and potential insights. Data cleaning: Handle missing values, outliers, and inconsistencies in the dataset.
 ### 2. Feature selection & engineering: 
 Identify and select relevant features that are likely to impact attrition. Create new features based on domain knowledge, such as tenure, job role scores, and employee rating indices.
 ### 3. Data Splitting
-Split the dataset into training and testing sets: Using 80% portion of the data for model training and the rest for evaluation. 
-### 4. Model Selection, Training and Evalution:
-A comprehensive evaluation of various machine learning algorithms was conducted to determine the optimal algorithm for the attrition model. For the development of the attrition model for ExploreEdge, a selection of powerful machine learning libraries was employed. The scikit-learn library provided a versatile foundation, with LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, and SVC chosen strategically to harness their respective capabilities. LogisticRegression was utilized for crafting a precise logistic regression model, while DecisionTreeClassifier enabled the construction of a decision tree classifier capable of intricate pattern recognition. RandomForestClassifier further enhanced the model's predictive accuracy through an ensemble of decision trees. KNeighborsClassifier was employed to leverage the k-nearest neighbors approach for efficient data classification. Additionally, the use of SVC facilitated the creation of a support vector classifier, enabling the exploration of complex decision boundaries for accurate attrition prediction. This ensemble of libraries underscores the commitment to crafting a robust and adaptable attrition model tailored to ExploreEdge's specific requirements.
+Split the dataset into training and testing sets: Using 80% of the data for model training and the rest for evaluation. 
+### 4. Model Selection, Training and Evaluation:
+A comprehensive evaluation of various machine learning algorithms was conducted to determine the optimal algorithm for the attrition model. For the development of the attrition model for ExploreEdge, a selection of powerful machine-learning libraries was employed. The scikit-learn library provided a versatile foundation, with LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, and SVC chose strategically to harness their respective capabilities. Logistic regression was utilized for crafting a precise logistic regression model, while DecisionTreeClassifier enabled the construction of a decision tree classifier capable of intricate pattern recognition. RandomForestClassifier enhanced the model's predictive accuracy through an ensemble of decision trees. KNeighborsClassifier was employed to leverage the k-nearest neighbours approach for efficient data classification. Additionally, using SVC facilitated the creation of a support vector classifier, enabling the exploration of complex decision boundaries for accurate attrition prediction. This ensemble of libraries underscores the commitment to crafting a robust and adaptable attrition model tailored to ExploreEdge's specific requirements.
 The selection process involved assessing each algorithm's performance metrics, including accuracy, precision, recall, F1-score, and area under the curve.
 ### 5. Feature Importance Analysis:
 Identify important features: Analyze feature importance scores to understand which factors contribute the most to attrition predictions.
@@ -56,7 +56,7 @@ Attrition is more common among individuals who work only in the office. ExploreE
 Key Attributes that contribute to attrition are:
 WorkModel, ExploreEdge Bank, Marriage Status, Job Level.
 
-Do note that the Model is currently working in progress as data constraints limit modelling capacity. Results are currently overfitting.
+Do note that the Model is currently working in progress as data constraints limit modelling capacity. Results are currently overfitting. A GAN 
 i.e. ![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/4ef00567-c3d2-4f31-9988-8202540c9e7d)
 
 Do note that with limited data, I applied an approach of using Generate Real-World Synthetic Data with CTGAN
