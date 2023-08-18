@@ -59,7 +59,7 @@ WorkModel, ExploreEdge Bank, Marriage Status, Job Level.
 Do note that the Model is currently working in progress as data constraints limit modelling capacity. Results are currently overfitting. A GAN 
 i.e. ![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/4ef00567-c3d2-4f31-9988-8202540c9e7d)
 
-Do note that with limited data, I applied an approach of using Generate Real-World Synthetic Data with CTGAN
+Do note that with limited data, I applied an approach of using Generate Real-World Synthetic Data with CTGAN. Streamlit App was trialed and tested to generate 13 4500 rows of data and will be further explored.   
  
 Recommendations:
 
