@@ -54,9 +54,9 @@ Name: WorkModel, dtype: int64
 Attrition is more common among individuals who work only in the office. ExploreEdge Bank, Marketing Sales & Distribution, and other departments all contribute to this. Married and single people are more likely to depart the firm. Employees operating at a lower level within their employment position may be more likely to contemplate leaving. Consider reviewing your total years working at the organisation without a promotion. Other correlated attributes to attribution are Performance Rating, PercentageHike of the salary, total years working, years working at ExploreEdge and also Years within the same role same company and  There is a correlation between employee rating and 
 
 Key Attributes that contribute to attrition are:
-WorkModel, ExploreEdge Bank, Marriage Status, Job Level. 
+WorkModel, ExploreEdge Bank, Marriage Status, Job Level.
 
-Do note that the Model is currently working in progress as data constraints limit modeling capacity. Results are currently overfitting.
+Do note that the Model is currently working in progress as data constraints limit modelling capacity. Results are currently overfitting.
 i.e. ![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/4ef00567-c3d2-4f31-9988-8202540c9e7d)
 
 Do note that with limited data, I applied an approach of using Generate Real-World Synthetic Data with CTGAN
@@ -64,34 +64,12 @@ Do note that with limited data, I applied an approach of using Generate Real-Wor
 Recommendations:
 
 Tailored Retention Strategies: 
-Design and implement retention strategies that are tailored to employees working full-time at the office. Strategy segments identified by the attrition model. 
+Design and implement retention strategies that are tailored to employees working full-time at the office. Consider flexible-working hours for full-time employees. 
+Consider recognition and rewards: Recognize and reward employees who actively contribute to a positive office environment.
+Have a Vitality strategy for office rewards. 
+Review managers who have a high attribution rate, and consider training courses. 
+Consider external factors influencing attrition, such as industry trends, economic conditions, and competitive job market data.
+Review months with high attrition rates to review culture and recursive employee well-being statuses prior.
 
 
-
-
-
-
-Exploratory Data Analysis will be conducted to identify the key factors contributing to attrition, build a predictive model to
-forecast attrition risk, and propose data-driven strategies to reduce employee turnover.
-
- build a predictive model to
-forecast attrition risk, and propose data-driven strategies to reduce employee turnover.
-The analysis will involve exploring various HR and employee-related data to gain insights that
-can be used to make informed decisions and improve employee retention.
-The primary objective of this case study is to provide a recommendation that will assist ExploreEdge in predicting employee attrition and addressing/derisking by providing data-driven insights and recommendations based on the analysis of historical employee data.
-
-
-Recommendations:
-
-Long Service Awards, Best Performer,
-look at manager
-Acquire external data: Consider external factors that may influence attrition, such as industry trends, economic conditions, and competitive job market data.
-Assumptions:
-Attrition Occurs on the last day of the monthx    
-
-# Inisights 
-Save on space.. moving forwards.. hire more and give remote workers. 
-Researh on benefits
-
-Key Tools and Libraries to be used:
-• Gitlib, GitHub,Python, R, PowerBi
+More insights will be presented during the presentation
