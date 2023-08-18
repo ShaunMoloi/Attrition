@@ -4,7 +4,7 @@
 ### Building a predictive model for forecasting attrition risk and proposing data-driven strategies to reduce employee turnover at ExploreEdge.
 
 ##### Problem Definition and Data Collection:
-The key to success in any organization is attracting and retaining top talent. The goal of this repo is to identify the key factors contributing to the attrition of employees. The data is pseudo-randomly generated using Python code and Synthesized using Generative Adversive Networks. The dataset contains #### rows.
+The key to success in any organization is attracting and retaining top talent. The goal of this repo is to identify the key factors contributing to the attrition of employees. The data is pseudo-randomly generated using Python code and Synthesized using Generative Adversive Networks.
 
 
 Data Preview
@@ -51,7 +51,7 @@ Field - Force           5
 Name: WorkModel, dtype: int64
 
 ## Insights gathered from the Exploratory Data Analysis: 
-Attrition is more common among individuals who work only in the office. ExploreEdge Bank, Marketing Sales & Distribution, and other departments all contribute to this. Married and single people are more likely to depart the firm. Employees operating at a lower level within their employment position may be more likely to contemplate leaving.
+Attrition is more common among individuals who work only in the office. ExploreEdge Bank, Marketing Sales & Distribution, and other departments all contribute to this. Married and single people are more likely to depart the firm. Employees operating at a lower level within their employment position may be more likely to contemplate leaving. Consider reviewing your total years working at the organisation without a promotion. Other correlated attributes to attribution are Performance Rating, PercentageHike of the salary, total years working, years working at ExploreEdge and also Years within the same role same company and  There is a correlation between employee rating and 
 
 Key Attributes that contribute to attrition are:
 WorkModel, ExploreEdge Bank, Marriage Status, Job Level. 
@@ -61,10 +61,10 @@ i.e. ![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/4ef00567-c
 
 Do note that with limited data, I applied an approach of using Generate Real-World Synthetic Data with CTGAN
  
+Recommendations:
 
-
-
-
+Tailored Retention Strategies: 
+Design and implement retention strategies that are tailored to employees working full-time at the office. Strategy segments identified by the attrition model. 
 
 
 
