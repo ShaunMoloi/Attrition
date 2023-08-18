@@ -1,8 +1,11 @@
 #  ExploreEdge Attrition Model
+
+
 ### Building a predictive model for forecasting attrition risk and proposing data-driven strategies to reduce employee turnover at ExploreEdge.
 
 ##### Problem Definition and Data Collection:
 The key to success in any organization is attracting and retaining top talent. The goal of this repo is to identify the key factors contributing to the attrition of employees. The data is pseudo-randomly generated using Python code and Synthesized using Generative Adversive Networks. The dataset contains #### rows.
+
 
 Data Preview
 
