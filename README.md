@@ -51,7 +51,7 @@ Field - Force           5
 Name: WorkModel, dtype: int64
 
 ## Insights gathered from the Exploratory Data Analysis: 
-Attrition is more common among individuals who work only in the office. ExploreEdge Bank, Marketing Sales & Distribution, and other departments all contribute to this. Married and single people are more likely to depart the firm. Employees operating at a lower level within their employment position may be more likely to contemplate leaving. Consider reviewing your total years working at the organisation without a promotion. Other correlated attributes to attribution are Performance Rating, percentage hike of the salary, total years working, years working at ExploreEdge and also Years within the same role same company. There is a correlation between employee rating and 
+Attrition is more common among individuals who work only in the office. ExploreEdge Bank, Marketing Sales & Distribution, and other departments all contribute to this. Married and single people are more likely to depart the firm. Employees operating at a lower level within their employment position may be more likely to contemplate leaving. 66% employee quit their job because distance from home is more then 10KM. Consider reviewing your total years working at the organisation without a promotion. Other correlated attributes to attribution are Performance Rating, percentage hike of the salary, total years working, years working at ExploreEdge and also Years within the same role same company. There is a correlation between employee rating and 
 
 Key Attributes that contribute to attrition are:
 WorkModel, ExploreEdge Bank, Marriage Status, Job Level.
@@ -71,6 +71,8 @@ Have a Vitality strategy for office rewards.
 Review managers who have a high attribution rate, and consider training courses. 
 Consider external factors influencing attrition, such as industry trends, economic conditions, and competitive job market data.
 Review months with high attrition rates to review culture and recursive employee well-being statuses prior.
+
+
 
 
 More insights will be presented during the presentation.
