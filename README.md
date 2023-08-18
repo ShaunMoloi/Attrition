@@ -13,7 +13,7 @@ Data Preview
 
 The Python notebook will:
 ### 1. Data Preprocessing and Exploration
-    Exploratory Data Analysis will be conducted to identify the key factors contributing to attrition, visualize and analyze the data to uncover patterns, correlations, and potential insights. Data cleaning: Handle missing values, outliers, and inconsistencies in the dataset.
+Exploratory Data Analysis will be conducted to identify the key factors contributing to attrition, visualize and analyze the data to uncover patterns, correlations, and potential insights. Data cleaning: Handle missing values, outliers, and inconsistencies in the dataset.
 ### 2. Feature selection & engineering: 
 Identify and select relevant features that are likely to impact attrition. Create new features based on domain knowledge, such as tenure, job role scores, and employee rating indices.
 ### 3. Data Splitting
