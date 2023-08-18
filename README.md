@@ -13,16 +13,15 @@ Data Preview
 
 The Python notebook will:
 ### 1. Data Preprocessing and Exploration
-    Exploratory data analysis (EDA): Visualize and analyze the data to uncover patterns, correlations, and potential insights.
-Data cleaning: Handle missing values, outliers, and inconsistencies in the dataset.
-## 2. Feature selection & engineering: 
+    Exploratory Data Analysis will be conducted to identify the key factors contributing to attrition, visualize and analyze the data to uncover patterns, correlations, and potential insights. Data cleaning: Handle missing values, outliers, and inconsistencies in the dataset.
+### 2. Feature selection & engineering: 
 Identify and select relevant features that are likely to impact attrition. Create new features based on domain knowledge, such as tenure, job role scores, and employee rating indices.
-## 3. Data Splitting
+### 3. Data Splitting
 Split the dataset into training and testing sets: Using 80% portion of the data for model training and the rest for evaluation. 
-## 4. Model Selection, Training and Evalution:
+### 4. Model Selection, Training and Evalution:
 A comprehensive evaluation of various machine learning algorithms was conducted to determine the optimal algorithm for the attrition model. Different algorithms were considered, such as logistic regression, decision trees, random forests, support vector machines, and neural networks. The selection process involved assessing each algorithm's performance metrics, including accuracy, precision, recall, F1-score, and area under the receiver operating characteristic curve (AUC-ROC).
 
-## 5. Feature Importance Analysis:
+### 5. Feature Importance Analysis:
 Identify important features: Analyze feature importance scores to understand which factors contribute the most to attrition predictions.
 Strategy Proposal
 
@@ -30,14 +29,13 @@ Strategy Proposal
 
 
 
-The repo will showcase Python code to determine which factors keep employees at the company and which prompt others to leave.
 
-This case study explores how a data scientist can analyze and address the problem of high
-employee attrition within ExploreEdge from their 13,450 employees.
 
 Exploratory Data Analysis will be conducted to identify the key factors contributing to attrition, build a predictive model to
 forecast attrition risk, and propose data-driven strategies to reduce employee turnover.
 
+ build a predictive model to
+forecast attrition risk, and propose data-driven strategies to reduce employee turnover.
 The analysis will involve exploring various HR and employee-related data to gain insights that
 can be used to make informed decisions and improve employee retention.
 The primary objective of this case study is to provide a recommendation that will assist ExploreEdge in predicting employee attrition and addressing/derisking by providing data-driven insights and recommendations based on the analysis of historical employee data.
