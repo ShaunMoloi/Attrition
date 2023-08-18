@@ -51,20 +51,21 @@ Field - Force           5
 Name: WorkModel, dtype: int64
 
 ## Insights gathered from the Exploratory Data Analysis: 
-Attrition is more common among individuals who work only in the office. ExploreEdge Bank, Marketing Sales & Distribution, and other departments all contribute to this. Married and single people are more likely to depart the firm. Employees operating at a lower level within their employment position may be more likely to contemplate leaving. Consider reviewing your total years working at the organisation without a promotion. Other correlated attributes to attribution are Performance Rating, PercentageHike of the salary, total years working, years working at ExploreEdge and also Years within the same role same company and  There is a correlation between employee rating and 
+Attrition is more common among individuals who work only in the office. ExploreEdge Bank, Marketing Sales & Distribution, and other departments all contribute to this. Married and single people are more likely to depart the firm. Employees operating at a lower level within their employment position may be more likely to contemplate leaving. Consider reviewing your total years working at the organisation without a promotion. Other correlated attributes to attribution are Performance Rating, percentage hike of the salary, total years working, years working at ExploreEdge and also Years within the same role same company. There is a correlation between employee rating and 
 
 Key Attributes that contribute to attrition are:
 WorkModel, ExploreEdge Bank, Marriage Status, Job Level.
 
-Do note that the Model is currently working in progress as data constraints limit modelling capacity. Results are currently overfitting. A GAN 
+Note that the model is currently in progress as data constraints limit modelling capacity. Results are currently overfitting. Having limited data, I applied an approach of using Generate Real-World Synthetic data. The Streamlit app was trialled and tested to generate 13 4500 rows of data and will be further explored.
+
 i.e. ![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/4ef00567-c3d2-4f31-9988-8202540c9e7d)
 
-Do note that with limited data, I applied an approach of using Generate Real-World Synthetic Data with CTGAN. Streamlit App was trialed and tested to generate 13 4500 rows of data and will be further explored.   
+   
  
 Recommendations:
 
 Tailored Retention Strategies: 
-Design and implement retention strategies that are tailored to employees working full-time at the office. Consider flexible-working hours for full-time employees. 
+Design and implement retention strategies tailored to employees working full-time at the office. Consider flexible-working hours for full-time employees. 
 Consider recognition and rewards: Recognize and reward employees who actively contribute to a positive office environment.
 Have a Vitality strategy for office rewards. 
 Review managers who have a high attribution rate, and consider training courses. 
@@ -72,4 +73,4 @@ Consider external factors influencing attrition, such as industry trends, econom
 Review months with high attrition rates to review culture and recursive employee well-being statuses prior.
 
 
-More insights will be presented during the presentation
+More insights will be presented during the presentation.
