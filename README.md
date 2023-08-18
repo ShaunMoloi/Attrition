@@ -19,11 +19,42 @@ Identify and select relevant features that are likely to impact attrition. Creat
 ### 3. Data Splitting
 Split the dataset into training and testing sets: Using 80% portion of the data for model training and the rest for evaluation. 
 ### 4. Model Selection, Training and Evalution:
-A comprehensive evaluation of various machine learning algorithms was conducted to determine the optimal algorithm for the attrition model. Different algorithms were considered, such as logistic regression, decision trees, random forests, support vector machines, and neural networks. The selection process involved assessing each algorithm's performance metrics, including accuracy, precision, recall, F1-score, and area under the receiver operating characteristic curve (AUC-ROC).
-
+A comprehensive evaluation of various machine learning algorithms was conducted to determine the optimal algorithm for the attrition model. For the development of the attrition model for ExploreEdge, a selection of powerful machine learning libraries was employed. The scikit-learn library provided a versatile foundation, with LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, and SVC chosen strategically to harness their respective capabilities. LogisticRegression was utilized for crafting a precise logistic regression model, while DecisionTreeClassifier enabled the construction of a decision tree classifier capable of intricate pattern recognition. RandomForestClassifier further enhanced the model's predictive accuracy through an ensemble of decision trees. KNeighborsClassifier was employed to leverage the k-nearest neighbors approach for efficient data classification. Additionally, the use of SVC facilitated the creation of a support vector classifier, enabling the exploration of complex decision boundaries for accurate attrition prediction. This ensemble of libraries underscores the commitment to crafting a robust and adaptable attrition model tailored to ExploreEdge's specific requirements.
+The selection process involved assessing each algorithm's performance metrics, including accuracy, precision, recall, F1-score, and area under the curve.
 ### 5. Feature Importance Analysis:
 Identify important features: Analyze feature importance scores to understand which factors contribute the most to attrition predictions.
 Strategy Proposal
+
+## Insights discovered
+Dataset attributes
+<img width="273" alt="image" src="https://github.com/ShaunMoloi/Attrition/assets/34385762/3abcabec-d4ef-40ab-b84e-6e958c1c7921">
+
+ExploreEdge consists of 795 Employees with an average age of 37 years old. 
+Distribution of WorkModels of the Employees:
+
+Remote                221
+High-flex Hybrid      206
+Medium-flex Hybrid    154
+Fully office based    109
+Fully Remote           80
+Low - flex hybrid      20
+Field - Force           5
+Name: WorkModel, dtype: int64
+
+## Insights gathered from the Exploratory Data Analysis: 
+Attrition is more common among individuals who work only in the office. ExploreEdge Bank, Marketing Sales & Distribution, and other departments all contribute to this. Married and single people are more likely to depart the firm. Employees operating at a lower level within their employment position may be more likely to contemplate leaving.
+
+Key Attributes that contribute to attrition are:
+WorkModel, ExploreEdge Bank, Marriage Status, Job Level. 
+
+Do note that the Model is currently working in progress as data constraints limit modeling capacity. Results are currently overfitting.
+i.e. ![image](https://github.com/ShaunMoloi/Attrition/assets/34385762/4ef00567-c3d2-4f31-9988-8202540c9e7d)
+
+Do note that with limited data, I applied an approach of using Generate Real-World Synthetic Data with CTGAN
+ 
+
+
+
 
 
 
@@ -40,30 +71,8 @@ The analysis will involve exploring various HR and employee-related data to gain
 can be used to make informed decisions and improve employee retention.
 The primary objective of this case study is to provide a recommendation that will assist ExploreEdge in predicting employee attrition and addressing/derisking by providing data-driven insights and recommendations based on the analysis of historical employee data.
 
-# JOB ROLE (1=HR REP, 2=HR, 3=LAB TECHNICIAN, 4=MANAGER, 5= MANAGING DIRECTOR, 6= RESEARCH DIRECTOR, 7= RESEARCH SCIENTIST, 8=SALES EXECUTIVE, 9= SALES REPRESENTATIVE)
-Data:
-Card Swipes recorded on Employify Platform
-A sample for 1345 employees will be used. 
-No of companies worked for
-Education 1 'Below College' 2 'College' 3 'Bachelor' 4 'Master' 5 'Doctor'
 
-EnvironmentSatisfaction 1 'Low' 2 'Medium' 3 'High' 4 'Very High'
-
-JobInvolvement 1 'Low' 2 'Medium' 3 'High' 4 'Very High'
-
-JobSatisfaction 1 'Low' 2 'Medium' 3 'High' 4 'Very High'
-
-PerformanceRating 1 'Low' 2 'Good' 3 'Excellent' 4 'Outstanding'
-
-RelationshipSatisfaction 1 'Low' 2 'Medium' 3 'High' 4 'Very High'
-
-WorkLifeBalance 1 'Bad' 2 'Good' 3 'Better' 4 'Best'
-
-Columns:
-Days at the offce
-
-
-Recommendations
+Recommendations:
 
 Long Service Awards, Best Performer,
 look at manager
